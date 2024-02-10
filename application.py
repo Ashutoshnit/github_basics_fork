@@ -10,7 +10,7 @@ from flask import Flask, render_template
 
 application = Flask(__name__)
 
-
+"Ashutosh Github basics"
 @application.route("/")
 def root():
     return render_template("index.html")
